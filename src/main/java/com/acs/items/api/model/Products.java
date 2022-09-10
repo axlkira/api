@@ -74,4 +74,17 @@ public class Products {
     public void setDateAddProduct(Date dateAddProduct) {
         this.dateAddProduct = dateAddProduct;
     }
+
+    @Override
+    public String toString() {
+        return "Products{" +
+                "idProduct=" + idProduct +
+                ", productName='" + productName + '\'' +
+                ", productDescription='" + productDescription + '\'' +
+                ", amountToSell=" + amountToSell +
+                ", productCategory='" + productCategory + '\'' +
+                ", urlProductImage='" + urlProductImage + '\'' +
+                ", dateAddProduct=" + dateAddProduct +
+                '}';
+    }
 }
